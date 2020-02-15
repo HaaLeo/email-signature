@@ -1,3 +1,7 @@
+[![Stars](https://img.shields.io/github/stars/HaaLeo/email-signature.svg?label=Stars&logo=github&style=flat-square)](https://github.com/HaaLeo/email-signature/stargazers) [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://raw.githubusercontent.com/HaaLeo/email-signature/master/LICENSE.txt) [![Donate](https://img.shields.io/badge/☕️-Buy%20Me%20a%20Coffee-blue.svg?&style=flat-square)](https://www.paypal.me/LeoHanisch/3eur)  
+[![David](https://img.shields.io/david/HaaLeo/email-signature.svg?style=flat-square)](https://david-dm.org/HaaLeo/email-signature) [![David](https://img.shields.io/david/dev/HaaLeo/email-signature.svg?style=flat-square)](https://david-dm.org/HaaLeo/email-signature?type=dev) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)  
+
+
 # email-signature
 
 Generate your own HTML email signature including links to your social media platforms.
@@ -25,7 +29,9 @@ Add your configuration to the `./config` directory.
 
 > **Note** relative URIs are not supported.
 
-```jsonc
+Example:
+
+```json
 {
     "dev": false,
     "name": "Max Mustermann",
@@ -52,3 +58,14 @@ This will create a signature for all found templates and configurations in the `
 ## Known Issues
 
 The social media links are currently hard coded. One has to adjust the template file to change them.
+
+## Contribution
+
+If you found a bug or are missing a feature do not hesitate to [file an issue](https://github.com/HaaLeo/email-signature/issues/new/choose).
+
+Pull Requests are welcome!
+
+## Support
+When you like this little application make sure to [star the repo](https://github.com/HaaLeo/email-signature/stargazers) . I am always looking for new ideas and feedback.
+
+In addition, it is possible to [donate via paypal](https://www.paypal.me/LeoHanisch/3eur).
