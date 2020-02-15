@@ -1,0 +1,15 @@
+{
+  "name": "email-signature",
+  "author": {
+    "name": "Leo Hanisch",
+    "url": "https://www.github.com/HaaLeo"
+  },
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "dependencies": {
+    "mustache": "^4.0.0"
+  },
+  "main": "node convert.js",
+  "scripts": {
+    "build": "node convert.js"
+  }
+}

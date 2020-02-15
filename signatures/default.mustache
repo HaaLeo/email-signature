@@ -1,0 +1,134 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+
+<body bgcolor="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+    <table id="Tabelle_01" width="542px" height="230px" border="0" cellpadding="0" cellspacing="0">
+
+        <!-- Top background -->
+        <tr>
+            <td rowspan="4" height="105px" style="background-color: {{#dev}}orangered{{/dev}}{{^dev}}{{backgroundTop}}{{/dev}}; width: 20px; height: 105px;"></td>
+            <td style="background-color: {{#dev}}yellow{{/dev}}{{^dev}}{{backgroundTop}}{{/dev}}; width: 190px; height: 10px;"></td>
+            <td rowspan="4" style="background-color: {{#dev}}pink{{/dev}}{{^dev}}{{backgroundTop}}{{/dev}}; width: 30px; height: 10px;"></td>
+            <td colspan="10" height="10px" style="width: 260px; height: 10px; background-color: {{#dev}}green{{/dev}}{{^dev}}{{backgroundTop}}{{/dev}};">
+            </td>
+            <td rowspan="4" style="width: 10px; background-color: {{#dev}}indigo{{/dev}}{{^dev}}{{backgroundTop}}{{/dev}};"></td>
+            <td rowspan="2" height="35px" style="width: 2px; height: 35px; background-color: {{#dev}}blue{{/dev}}{{^dev}}{{backgroundTop}}{{/dev}};"></td>
+            <td rowspan="4" style="width: 30px; background-color: {{#dev}}red{{/dev}}{{^dev}}{{backgroundTop}}{{/dev}};"></td>
+        </tr>
+        <tr height="25px">
+            <td rowspan="8">
+                <img src="{{{profilePictureUri}}}"
+                    width="190" height="190" style="height: 190px; width: 190px;">
+            </td>
+            <td colspan="10" height="25px" style="width: 260px; height: 25px; background-color: {{#dev}}lightgreen{{/dev}}{{^dev}}{{backgroundTop}}{{/dev}};">
+        </tr>
+        <tr height="40px">
+            <td colspan="10" valign="bottom"
+                style="height: 40px; font-family: 'Segoe UI bold', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px; vertical-align: bottom; background-color: {{#dev}}white{{/dev}}{{^dev}}{{backgroundTop}}{{/dev}}; color:{{backgroundBottom}};">
+                {{name}}
+            </td>
+            <!-- Vertical Line at the end -->
+            <td rowspan="7" style="width: 2px; background-color:#EC8234;"></td>
+        </tr>
+        <tr height="30px">
+            <td colspan="10" valign="top"
+                style="height: 30px; font-family: 'Segoe UI bold', Tahoma, Geneva, Verdana, sans-serif; font-size: 13px; vertical-align: top; background-color: {{#dev}}lightgray{{/dev}}{{^dev}}{{backgroundTop}}{{/dev}}; color:{{backgroundBottom}};">
+                {{position}}
+            </td>
+        </tr>
+
+        <!-- Bottom Background -->
+        <tr height="19px">
+            <td rowspan="6" colspan="1" style="background-color: {{#dev}}lightblue{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}}; height: 76px; width: 20px;"></td>
+            <td rowspan="6" style="background-color: {{#dev}}green{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}}; width: 30px;"></td>
+            <td height="19px" colspan="10"
+                style="height: 19px; background-color: {{#dev}}darkblue{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}}; font-size: 13px; font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif; color: #EC8234">
+                <a href="mailto:{{email}}" style="color: #EC8234; text-decoration: none;">
+                    Email: {{email}}
+                </a>
+            </td>
+            <td rowspan="6" style="width: 10px; background-color: {{#dev}}red{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}};"></td>
+            <td rowspan="6" style="width: 30px; background-color: {{#dev}}indigo{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}};"></td>
+        </tr>
+        <tr height="19px">
+            <td colspan="10"
+                style="background-color: {{#dev}}lightblue{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}}; font-size: 13px; font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif; color: #EC8234">
+                <a href="tel:{{mobileNumber}}" style="color: #EC8234; text-decoration: none;">
+                    Mobil: {{mobileNumber}}
+                </a>
+            </td>
+        </tr>
+        <tr height="19px">
+            <td colspan="10"
+                style="background-color: {{#dev}}darkblue{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}}; font-size: 13px; font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif; color: #EC8234">
+                <a style="color: #EC8234; text-decoration: none;"
+                    href="{{{addressMapsLink}}}">
+                    {{address}}
+                </a>
+            </td>
+        </tr>
+        <tr height="19px">
+            <td colspan="10"
+                style="background-color: {{#dev}}lightblue{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}}; font-size: 13px; font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif; color: #EC8234">
+                <a style="color: #EC8234; text-decoration: none;" href="https://{{homepage}}">
+                    {{homepage}}
+                </a>
+            </td>
+        </tr>
+
+        <!-- Social Media Icon links -->
+        <tr height="19px">
+            <td rowspan="2" style="width:35px; background-color: {{#dev}}gray{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}};">
+                <a style="border-radius: 50%;" href="https://www.facebook.com">
+                    <img src="file:///C:/Users/hanisch_privat/_GIT/email-signature/images/social_media/facebook.png"
+                        style="height: 35px; width: 35px; border-radius: 50%; vertical-align: middle;" width="35"
+                        height="35">
+                </a>
+            </td>
+            <td rowspan="2" style="width:17px; background-color: {{#dev}}white{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}};"></td>
+            <td rowspan="2" style="width:35px; background-color: {{#dev}}gray{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}};">
+                <a style="border-radius: 50%;" href="https://www.instagram.com">
+                    <img src="file:///C:/Users/hanisch_privat/_GIT/email-signature/images/social_media/instagram.png"
+                        style="height: 35px; width: 35px; border-radius: 50%; vertical-align: middle;" width="35"
+                        height="35">
+                </a>
+            </td>
+            <td rowspan="2" style="width:17px; background-color: {{#dev}}white{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}};"></td>
+            <td rowspan="2" style="width:35px; background-color: {{#dev}}gray{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}};">
+                <a style="border-radius: 50%;" href="https://www.youtube.com/channel/UCO1m490akOe29BERnGABX4g">
+                    <img src="file:///C:/Users/hanisch_privat/_GIT/email-signature/images/social_media/youtube.png"
+                        style="height: 35px; width: 35px; border-radius: 50%; vertical-align: middle;" width="35"
+                        height="35">
+                </a>
+            </td>
+            <td rowspan="2" style="width:17px; background-color: {{#dev}}white{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}};"></td>
+            <td rowspan="2" style="width:35px; background-color: {{#dev}}gray{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}};">
+                <a style="border-radius: 50%;" href="https://www.pinterest.de/">
+                    <img src="file:///C:/Users/hanisch_privat/_GIT/email-signature/images/social_media/pinterest.png"
+                        style="height: 35px; width: 35px; border-radius: 50%; vertical-align: middle;" width="35"
+                        height="35">
+                </a>
+            </td>
+            <td rowspan="2" style="width:17px; background-color: {{#dev}}white{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}};"></td>
+            <td rowspan="2" style="width:35px; background-color: {{#dev}}gray{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}};">
+                <a style="border-radius: 50%;" href="https://www.linkedin.com/in/leohanisch">
+                    <img src="file:///C:/Users/hanisch_privat/_GIT/email-signature/images/social_media/linkedin.png"
+                        style="height: 35px; width: 35px; border-radius: 50%; vertical-align: middle;" width="35"
+                        height="35">
+                </a>
+            </td>
+            <td rowspan="2" style="width:17px; background-color: {{#dev}}white{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}};"></td>
+        </tr>
+
+        <tr height="30px">
+            <td style="background-color: {{#dev}}yellow{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}}; width: 190px; height: 30px;"></td>
+            <td style="width: 2px; background-color: {{#dev}}blue{{/dev}}{{^dev}}{{backgroundBottom}}{{/dev}};"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
