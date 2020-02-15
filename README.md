@@ -2,6 +2,8 @@
 
 Generate your own HTML email signature including links to your social media platforms.
 
+![sample signature](./doc/sample.png)
+
 ## Installation
 
 ```
@@ -12,7 +14,13 @@ npm install
 
 ## Usage
 
-First one has to create the configuration with personal details that should be added to the signature.
+First one has to create a squared profile picture that already includes the frame and the correct background colors.
+
+Example:
+
+<img src="./images/profile/Leo.png" alt="sample profile image" width="30%"/>
+
+Now create a configuration with personal details that should be added to the signature.
 Add your configuration to the `./config` directory.
 
 > **Note** relative URIs are not supported.
