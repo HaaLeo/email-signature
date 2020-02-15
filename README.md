@@ -1,17 +1,16 @@
+# email-signature
+
 [![Stars](https://img.shields.io/github/stars/HaaLeo/email-signature.svg?label=Stars&logo=github&style=flat-square)](https://github.com/HaaLeo/email-signature/stargazers) [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://raw.githubusercontent.com/HaaLeo/email-signature/master/LICENSE.txt) [![Donate](https://img.shields.io/badge/☕️-Buy%20Me%20a%20Coffee-blue.svg?&style=flat-square)](https://www.paypal.me/LeoHanisch/3eur)  
 [![David](https://img.shields.io/david/HaaLeo/email-signature.svg?style=flat-square)](https://david-dm.org/HaaLeo/email-signature) [![David](https://img.shields.io/david/dev/HaaLeo/email-signature.svg?style=flat-square)](https://david-dm.org/HaaLeo/email-signature?type=dev) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)  
 
-
-# email-signature
-
-Generate your own HTML email signature including links to your social media platforms.
+Generate your own HTML email signature including links to your favorite social media platforms.
 
 ![sample signature](./doc/sample.png)
 
 ## Installation
 
 ```
-git clone https://github.com/HaaLeo/email-signature.git
+git clone git@github.com:HaaLeo/email-signature.git
 cd email-signature
 npm install
 ```
